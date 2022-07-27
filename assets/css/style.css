@@ -12,6 +12,9 @@ body{
 
 /* header and logo */
 
+header{
+    background-color: azure;
+}
 h1, h2{
     font-family: "Arvo", sans-serif;
     color:black;
@@ -89,5 +92,62 @@ h1, h2{
     text-transform: uppercase;
     position:relative;
     top:40px;
-    background-color: grey;
+    font-size:smaller;
 }
+
+#adopt:hover{
+    border-bottom:5px solid azure;
+
+}
+
+/* steps */
+
+#steps-title{
+    font-size:300%;
+    background-color: azure;
+    text-align: center;
+    padding:20px;
+}
+
+#first-step{
+    background-image: url("../images/first-step.jpg") no-repeat;
+    width:25%;
+    height:200px;
+    text-align:center;
+    float:left;
+    font-size:150%;
+  
+}
+
+#second-step{
+    background-color: black;
+    color:azure;
+    width:25%;
+    height:200px;
+    text-align:center;
+    float:left;
+    font-size:150%;
+  
+}
+
+#third-step{
+    background-color: black;
+    color:azure;
+    width:25%;
+    height:200px;
+    text-align:center;
+    float:left;
+    font-size:150%;
+  
+}
+
+#fourth-step{
+    background-color: black;
+    color:azure;
+    width:25%;
+    height:200px;
+    text-align:center;
+    float:left;
+    font-size:150%;
+}
+
