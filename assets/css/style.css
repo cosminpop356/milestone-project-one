@@ -151,3 +151,24 @@ h1, h2{
     font-size:150%;
 }
 
+
+/* social media links */
+
+footer{
+    height:50px;
+}
+
+.social-media{
+    text-align: center;
+}
+
+.social-media > li{
+    display: inline;
+}
+
+.social-media i {
+    padding: 0.5%;
+    margin: 5%;
+    font-size:200%;
+    color: black;
+}
