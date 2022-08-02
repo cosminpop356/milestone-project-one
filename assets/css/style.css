@@ -4,6 +4,7 @@
     margin:0;
     padding:0;
     border: none;
+    background-color: azure;
 }
 
 body{
@@ -15,9 +16,10 @@ body{
 header{
     background-color: azure;
 }
-h1, h2{
+h1, h2, h3{
     font-family: "Arvo", sans-serif;
     color:black;
+    font-weight: bold;
 }
 
 
@@ -86,6 +88,7 @@ h1, h2{
 }
 
 #adopt{
+    background-color: inherit;
     color:inherit;
     display:block;
     text-decoration: none;
@@ -96,7 +99,7 @@ h1, h2{
 }
 
 #adopt:hover{
-    border-bottom:5px solid azure;
+    border:3px solid azure;
 
 }
 
@@ -109,66 +112,116 @@ h1, h2{
     padding:20px;
 }
 
-#first-step{
-    background-image: url("../images/first-step.jpg") no-repeat;
-    width:25%;
+.left, .right{
+    font-size:200%;
+    font-weight: bold;
+    clear:both;
+    width:100%;
     height:200px;
-    text-align:center;
-    float:left;
-    font-size:150%;
-  
 }
 
-#second-step{
+
+.left p{
+    text-align: center;
+    padding: 75px 0;
     background-color: black;
     color:azure;
-    width:25%;
-    height:200px;
-    text-align:center;
-    float:left;
-    font-size:150%;
-  
 }
 
-#third-step{
-    background-color: black;
-    color:azure;
-    width:25%;
-    height:200px;
-    text-align:center;
-    float:left;
-    font-size:150%;
-  
+
+.right{
+    background-color: azure;
 }
 
-#fourth-step{
+.right p{
+    text-align:center;
+    padding: 75px 0;
+}
+
+
+#step-one p, #step-three p{
+    padding-right:500px;
+}
+
+#step-two p, #step-four p{
+    padding-left:500px;
+}
+
+/*contact and location*/
+
+#contact-title{
+    font-size:300%;
+    width:100%;
+}
+
+#contact-title h2{
     background-color: black;
     color:azure;
-    width:25%;
-    height:200px;
     text-align:center;
+}
+
+#contact li, #open-times, #open-times-outer h3{
+    font-size:150%;
     float:left;
+    clear: both; 
+}
+
+#map{
+    float:right;
+}
+
+#open-times-outer h3{
+    text-align: center;
+}
+
+#open-times-outer{
+    position:absolute;
+    top:200%;
+    left:15%;
+}
+
+#contact{
+    position: absolute;
+    top:185%;
+    left:15%;
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+#contact h3{
     font-size:150%;
 }
+
+
 
 
 /* social media links */
 
 footer{
     height:50px;
+    clear:both;
+    background-color: black;
+    
 }
 
 .social-media{
     text-align: center;
+    background-color: black;
+}
+
+.social-media a{
+    background-color: black;
 }
 
 .social-media > li{
     display: inline;
+    background-color: black;
+    
 }
 
 .social-media i {
-    padding: 0.5%;
-    margin: 5%;
+    margin: 50px 50px ;
     font-size:200%;
-    color: black;
+    color: azure;
+    background-color: black;
 }
