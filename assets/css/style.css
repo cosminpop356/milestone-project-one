@@ -16,6 +16,7 @@ body{
 header{
     background-color: azure;
 }
+
 h1, h2, h3{
     font-family: "Arvo", sans-serif;
     color:black;
@@ -170,9 +171,6 @@ h1, h2, h3{
     float:right;
 }
 
-#open-times-outer h3{
-    text-align: center;
-}
 
 #open-times-outer{
     position:absolute;
@@ -198,6 +196,8 @@ h1, h2, h3{
 /* social media links */
 
 footer{
+    position:relative;
+    margin-top: -50px;
     height:50px;
     clear:both;
     background-color: black;
@@ -294,4 +294,72 @@ footer{
     background-color:azure;
     color:black;
     border: 1px solid black;
+}
+
+
+/* media queries */
+
+@media screen and (max-width: 1600px){
+   
+    #contact-outer{
+        position: absolute;
+        top:190%;
+        left:10%;
+        width:100%;
+    }
+
+    #open-times-outer{
+        top:190%;
+        left:60%;
+    }
+
+    #contact-title{
+        clear:both;
+        overflow-x: hidden;
+    }
+
+    #map{
+        clear:both;
+        float:left;
+        padding-top:250px;
+        margin: 0 auto;
+        width:100%;
+        overflow-x: hidden;
+    }
+
+    #map >iframe{
+      width:100%;
+      overflow-x: hidden;
+    } 
+}
+
+@media screen and (max-width: 1000px){
+
+    #contact-outer{
+        position: absolute;
+        top:185%;
+        left:25%;
+        width:100%;
+    }
+
+    #open-times-outer{
+        top:200%;
+        left:40%;
+        
+    }    
+
+    #map{
+        padding-top:350px;
+    }
+
+    #menu{
+        clear:left;
+        float:left;
+    }
+
+    .left p, .right p{
+        float:left;
+        text-align:left;
+
+    }
 }
