@@ -127,6 +127,7 @@ h1, h2, h3{
     padding: 75px 0;
     background-color: black;
     color:azure;
+    padding-left:20px;
 }
 
 
@@ -303,10 +304,15 @@ footer{
 
 /* media queries */
    
+@media screen and (max-width: 1600px){
+
+    #photos{
+        column-count: 3;
+        
+    }
+}
 
 @media screen and (max-width: 1000px){
-
-  
 
     #menu{
         clear:left;
@@ -318,4 +324,26 @@ footer{
         text-align:left;
 
     }
+}
+
+@media screen and (max-width: 700px){
+    
+    #contact{
+        padding: 0 0 0 30%;
+    }
+
+    #open-times-outer{
+        padding: 0 30% 0 0;
+    }
+
+    #photos{
+        column-count: 2;
+        
+    }
+
+    #menu li{
+        display:block;
+
+    }
+    
 }
