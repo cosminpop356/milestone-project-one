@@ -171,7 +171,7 @@ h1, h2, h3{
     width:100%;
 }
 
-#contact, #open-times-outer{
+#contact-outer, #open-times-outer{
     display:inline-block;
     margin-top:10px;
 }
@@ -182,17 +182,20 @@ h1, h2, h3{
     padding: 0 30em 5em 0;
 }
 
-#contact{
+#contact-outer{
     clear:both;
     float:left;
-    list-style-type: none;
     list-style-position: outside;
     padding: 5em 0 0 30em;
     
 }
 
-#contact h3{
+#contact-outer h3{
     font-size:150%;
+}
+
+#contact-outer li{
+    list-style-type: none;
 }
 
 
