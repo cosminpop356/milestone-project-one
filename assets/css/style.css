@@ -162,28 +162,32 @@ h1, h2, h3{
 }
 
 #contact li, #open-times, #open-times-outer h3{
-    font-size:150%;
-    float:left;
-    clear: both; 
+    font-size:150%;    
 }
 
 #map{
-    float:right;
+    clear:both;
+    width:100%;
 }
 
+#contact, #open-times-outer{
+    display:inline-block;
+    margin-top:10px;
+}
 
 #open-times-outer{
-    position:absolute;
-    top:200%;
-    left:15%;
+    float:right;
+    clear:both;
+    padding: 0 30em 5em 0;
 }
 
 #contact{
-    position: absolute;
-    top:185%;
-    left:15%;
+    clear:both;
+    float:left;
     list-style-type: none;
     list-style-position: outside;
+    padding: 5em 0 0 30em;
+    
 }
 
 #contact h3{
@@ -298,59 +302,11 @@ footer{
 
 
 /* media queries */
-
-@media screen and (max-width: 1600px){
    
-    #contact-outer{
-        position: absolute;
-        top:190%;
-        left:10%;
-        width:100%;
-    }
-
-    #open-times-outer{
-        top:190%;
-        left:60%;
-    }
-
-    #contact-title{
-        clear:both;
-        overflow-x: hidden;
-    }
-
-    #map{
-        clear:both;
-        float:left;
-        padding-top:250px;
-        margin: 0 auto;
-        width:100%;
-        overflow-x: hidden;
-    }
-
-    #map >iframe{
-      width:100%;
-      overflow-x: hidden;
-    } 
-}
 
 @media screen and (max-width: 1000px){
 
-    #contact-outer{
-        position: absolute;
-        top:185%;
-        left:25%;
-        width:100%;
-    }
-
-    #open-times-outer{
-        top:200%;
-        left:40%;
-        
-    }    
-
-    #map{
-        padding-top:350px;
-    }
+  
 
     #menu{
         clear:left;
